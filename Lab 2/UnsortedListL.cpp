@@ -15,13 +15,14 @@ UnsortedListL::~UnsortedListL()
 void UnsortedListL::MakeEmpty()
 {
 	Node* temp;
-	while(head!=NULL)
+
+	while (head != NULL)
 	{
 		temp = head;
 		head = head->next;
 		delete temp;
 	}
-	delete head;
+	
 }
 
 bool UnsortedListL::IsFull()

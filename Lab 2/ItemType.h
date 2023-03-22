@@ -19,13 +19,13 @@ public:
 
 	ItemType();										 //done
 	~ItemType();									 //done
-													 //done
+												
 	void Initialize(int item_) { SetItem(item_); };	 //done
 	void SetItem(int item_) { item = item_; };		 //done
 	int GetItem() { return item; };					 //done
-													 //done
+													
 	void Print(ostream& Stream);					 //done
-													 //done
+													 
 	RelationType ComparedTo(ItemType item_);		 //done
 
 private:
